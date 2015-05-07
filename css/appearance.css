@@ -1,6 +1,10 @@
+ul {
+	text-align: right;
+	margin-right: 3%;
+	margin-top: 10px;
+}
+
 li {
 	display: inline;
-	margin-right: auto;
-	margin-left: auto;
-
+	margin-left: 20px;
 }
