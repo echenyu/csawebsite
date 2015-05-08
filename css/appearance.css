@@ -16,3 +16,9 @@ a.buttonClick{
 a:hover {
 	text-decoration: none;
 }
+
+img.resize{
+	width:25%;
+	height:auto;
+	padding-bottom: 20px;
+}
