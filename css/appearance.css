@@ -8,3 +8,11 @@ li {
 	display: inline;
 	margin-left: 20px;
 }
+
+a.buttonClick{
+	color: #ffffff;
+}
+
+a:hover {
+	text-decoration: none;
+}
