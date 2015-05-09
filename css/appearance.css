@@ -1,12 +1,13 @@
-ul {
-	text-align: right;
-	margin-right: 3%;
-	margin-top: 10px;
+
+/*You use ID's for single elements and we use classes when we want 
+to connect them to more than one element*/
+body {
+	background-color: #22313f
 }
 
-li {
-	display: inline;
-	margin-left: 20px;
+.navbar {
+	margin-top: 10px;
+	text-align: center;
 }
 
 a.buttonClick{
@@ -16,9 +17,32 @@ a.buttonClick{
 a:hover {
 	text-decoration: none;
 }
+li {
+	display: inline;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 1.2em;
+}
+/*Sets all links in the navbar to white*/
+.navbar a {
+	color:white;
+}
 
+img {
+	display: block;
+	margin: auto;
+}
 img.resize{
 	width:25%;
 	height:auto;
-	padding-bottom: 20px;
 }
+
+#fronttext {
+	margin: auto;
+	/*Change the margins for this. Don't use px?*/
+	font-size: 1.2em;
+	color:white;
+	width: 60%;
+	text-align: center;
+}
+
