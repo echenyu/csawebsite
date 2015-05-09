@@ -1,27 +1,42 @@
+@font-face{
+	font-family:'myFont';
+	src: url('../fonts/Aaargh.ttf');
+}
 
 /*You use ID's for single elements and we use classes when we want 
 to connect them to more than one element*/
 body {
 	background-color: #22313f
 }
-
-.navbar {
-	margin-top: 10px;
-	text-align: center;
+#topbar{
+	width: 100%;
 }
 
+.navbar {
+	margin-top: 40px;
+	text-align: right;
+	margin-right:5%;
+	float:right;
+	width: 50%;
+	clear: left;
+}
+.CSA {
+	float:left;
+	margin-left:5%;
+}
 a.buttonClick{
 	color: #ffffff;
 }
 
 a:hover {
-	text-decoration: none;
+	text-decoration: underline;
 }
 li {
 	display: inline;
-	margin-left: 20px;
-	margin-right: 20px;
-	font-size: 1.2em;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 1.25em;
+	font-family: "myFont";
 }
 /*Sets all links in the navbar to white*/
 .navbar a {
@@ -32,6 +47,7 @@ img {
 	display: block;
 	margin: auto;
 }
+
 img.resize{
 	width:25%;
 	height:auto;
@@ -40,9 +56,25 @@ img.resize{
 #fronttext {
 	margin: auto;
 	/*Change the margins for this. Don't use px?*/
-	font-size: 1.2em;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 1.1em;
 	color:white;
 	width: 60%;
 	text-align: center;
+	font-family: "myFont";
 }
 
+h1 {
+	font-family: "myFont";
+	color:white;
+	margin-top: 20px;
+	text-align: right;
+	margin-right:5%;
+	width:100px;
+}
+
+p {
+	font-family: "myFont";
+	color:white;
+}
