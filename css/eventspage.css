@@ -1,11 +1,25 @@
-.celebrasia p {
+.contentwrap {
+	width: 80%;
+	margin: auto;
+}
+#celebrasia {
 	background-color: yellow;
+	float: left;
+	width: 35%;
+	clear: right;
 }
 
-.lunarball p{
+#lunarball{
 	background-color: red;
+	float: left;
+	clear: left;
+	width: 35%;
 }
 
-.upcomingevents p{
+#upcomingevents{
 	background-color: blue;
+	float: right;
+	height: 300px;
+	width: 65%;
+	color: white;
 }

@@ -6,10 +6,11 @@
 /*You use ID's for single elements and we use classes when we want 
 to connect them to more than one element*/
 body {
-	background-color: #23313f
+	background: #22313f
 }
 .topbar{
 	width: 100%;
+	background-color: #22313f;
 
 }
 
@@ -19,13 +20,16 @@ body {
 	margin-right:5%;
 	float:right;
 	width: 50%;
-	clear: left;
+	min-width: 500px;
+
 }
 .CSA {
 	float:left;
 	margin-left:5%;
 	clear: left;
-	width: 40%;
+	min-width: 175px;
+	width: 20%;
+	background-color: black;
 }
 a.buttonClick{
 	color: #ffffff;
