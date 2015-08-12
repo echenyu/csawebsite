@@ -3,23 +3,26 @@
 	margin: auto;
 }
 #celebrasia {
-	background-color: yellow;
 	float: left;
 	width: 35%;
 	clear: right;
 }
 
 #lunarball{
-	background-color: red;
 	float: left;
 	clear: left;
 	width: 35%;
 }
 
-#upcomingevents{
-	background-color: blue;
-	float: right;
-	height: 300px;
-	width: 65%;
-	color: white;
+img {
+	margin-left: 0px;
 }
+
+#upcomingevents{
+	float: right;
+	width: 65%;
+	text-align: center;
+
+}
+
+

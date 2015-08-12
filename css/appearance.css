@@ -6,7 +6,8 @@
 /*You use ID's for single elements and we use classes when we want 
 to connect them to more than one element*/
 body {
-	background: #22313f
+	background: #22313f;
+	color: white;
 }
 .topbar{
 	width: 100%;
@@ -23,13 +24,16 @@ body {
 	min-width: 500px;
 
 }
+html {
+  overflow-y: scroll;
+}
 .CSA {
 	float:left;
 	margin-left:5%;
 	clear: left;
 	min-width: 175px;
 	width: 20%;
-	background-color: black;
+	/*background-color: black;*/
 }
 a.buttonClick{
 	color: #ffffff;
