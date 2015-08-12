@@ -1,15 +1,16 @@
 @font-face{
 	font-family:'myFont';
-	src: url('../fonts/Aaargh.ttf');
+	src: url('../fonts/Bariol_Regular.otf');
 }
 
 /*You use ID's for single elements and we use classes when we want 
 to connect them to more than one element*/
 body {
-	background-color: #22313f
+	background-color: #23313f
 }
 .topbar{
 	width: 100%;
+
 }
 
 .navbar {
@@ -79,4 +80,9 @@ h1 {
 p {
 	font-family: "myFont";
 	color:white;
+}
+
+#events{
+	margin:auto;
+	width:50%;
 }
