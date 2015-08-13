@@ -1,6 +1,7 @@
 .contentwrap {
 	width: 80%;
 	margin: auto;
+	padding-top: 10%;
 }
 #celebrasia {
 	float: left;
@@ -23,12 +24,15 @@ img {
 	width: 65%;
 }
 
-#upcomingevents h2, h3 {
+h2 {
 	text-align: center;
 }
 
 h4 {
 	padding-bottom: 5px;
-	border-bottom: 1px white solid;
+	border-bottom: 1px black solid;
+}
 
+h2, h3, h4 {
+	color:black;
 }

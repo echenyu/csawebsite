@@ -2,7 +2,7 @@
 	width: 80%;
 	margin: auto;
 	clear:left;
-	padding: 5px 0 0 5px;
+	padding: 10% 0 0 5px;
 }
 
 .nextboardposition {
@@ -20,11 +20,10 @@ img {
 img.resize{
 	height:auto;
 	float:left;
+	width: 20%;
 }
 
 
-.PandVP {
-}
 .eventsChairs {
 	clear: none;
 	background:blue;
