@@ -21,8 +21,14 @@ img {
 #upcomingevents{
 	float: right;
 	width: 65%;
-	text-align: center;
-
 }
 
+#upcomingevents h2, h3 {
+	text-align: center;
+}
 
+h4 {
+	padding-bottom: 5px;
+	border-bottom: 1px white solid;
+
+}

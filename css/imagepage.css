@@ -1,0 +1,31 @@
+.imagewrap {
+	width: 80%;
+	margin: auto;
+	clear:left;
+	padding: 5px 0 0 5px;
+}
+
+.nextboardposition {
+	clear:left;
+	margin-top: 8%;
+	display: inline-block;
+	background: red;
+
+}
+
+img {
+	margin: auto auto;
+}
+
+img.resize{
+	height:auto;
+	float:left;
+}
+
+
+.PandVP {
+}
+.eventsChairs {
+	clear: none;
+	background:blue;
+}
