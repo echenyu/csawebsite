@@ -1,0 +1,28 @@
+.imagewrap {
+	width: 90%;
+	margin: auto;
+	padding: 0 0 0 5px;	
+
+}
+
+
+.imagewrap div {
+	width: 25%;
+	float: left;
+	margin-top: 130px;
+	/*Why do i need this height thing... bothers me*/
+	height: 200px;
+}
+
+.imagewrap div img {
+	text-align: center;
+}
+
+
+img.resize{
+	width: 80%;
+}
+
+.imagewrap div p {
+	text-align: center;
+}

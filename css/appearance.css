@@ -6,13 +6,16 @@
 /*You use ID's for single elements and we use classes when we want 
 to connect them to more than one element*/
 body {
-	background: #22313f;
 	color: white;
 }
 .topbar{
 	width: 100%;
-	background-color: #22313f;
+	position: fixed;
+	background-color: rgb(51, 122, 183);
 
+}
+.topbar p, h1 {
+	margin: 0;
 }
 
 .navbar {
@@ -46,7 +49,7 @@ li {
 	display: inline;
 	margin-left: 10px;
 	margin-right: 10px;
-	font-size: 1.25em;
+	font-size: 1.4em;
 	font-family: "myFont";
 }
 /*Sets all links in the navbar to white*/
@@ -59,10 +62,6 @@ img {
 	margin: auto;
 }
 
-img.resize{
-	width:25%;
-	height:auto;
-}
 
 #fronttext {
 	margin: auto;
@@ -87,10 +86,14 @@ h1 {
 
 p {
 	font-family: "myFont";
-	color:white;
+	color:black;
 }
 
 #events{
 	margin:auto;
 	width:50%;
+}
+
+.content {
+	padding-top: 10%;
 }
