@@ -1,0 +1,38 @@
+.contentwrap {
+	margin: auto;
+	padding-top: 10%;
+	width: 95%;
+}
+
+.picture {
+	float: left;
+	clear: left;
+	width: 35%;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.description {
+	float: right;
+	width: 65%;
+}
+
+.contentwrap h1 {
+	width: auto;
+	text-align: left;
+	color: black;
+	font-family: "myFont";
+	font-size: 40px;
+
+}
+
+.description h2 {
+	color: black;
+	font-family: "myFont";
+	border-bottom: 1px black solid;
+}
+
+.description p {
+	font-size: 20px;
+
+}
