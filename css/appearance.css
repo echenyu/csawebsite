@@ -70,8 +70,8 @@ img {
 	margin-bottom: 30px;
 	font-size: 16px;
 	color:white;
-	width: 60%;
-	text-align: center;
+	width: 640px;
+	text-align: left;
 	font-family: "myFont";
 }
 
@@ -99,4 +99,7 @@ p {
 
 .content {
 	padding-top: 10%;
+	width: 70%;
+	margin: auto;
+	text-align: center;
 }
